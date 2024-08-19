@@ -1,9 +1,11 @@
 ---
 title: Whether language evolved with the brain or the brain evolved with language
 date: 2024-08-19 10:31:19
+tags: Language, Cognition
+---
 tags: `Language`,`Cognition`
 co-author: Jc042
----
+
 Whether language evolved with the brain or the brain evolved with language [Geoffrey Hinton](https://www.youtube.com/watch?app=desktop&v=n4IQOBka8bc&t=1531s).
 
 ### 3 different views of language and how they relate to cognition
