@@ -1,11 +1,13 @@
 ---
 title: Whether language evolved with the brain or the brain evolved with language
 date: 2024-08-19 10:31:19
-tags:
+tags: `Language`,`Cognition`
+co-author: Jc042, claude3.5
 ---
 Whether language evolved with the brain or the brain evolved with language [Geoffrey Hinton](https://www.youtube.com/watch?app=desktop&v=n4IQOBka8bc&t=1531s).
 
 ### 3 different views of language and how they relate to cognition
+
 1st, symbolic view: cognition consists of having strings of symbols in some cleanup logical language where is no ambiguity and applying rules of inference, cognition is just these symbolic manipulations on things are like the language symbols.
 
 2nd view. Once you get inside the head, it's all vectors, symbols come in, you convert these symbols into big vectors, and if you want output you produce symbols again. There is a point in machine translation in 2014, where people used recurrent neural nets(RNN) and words keep coming in and having a hidden state that keep accumulating information in the hidden state. So when they got to the end of the sentence, they have a big hidden vector that captures the meaning of that sentence, then being used to produce the sentence in neural language, that's called the thought vector. You convert the language into big vectors(nothing like language), and that is what cognition is all about.  
@@ -100,7 +102,7 @@ WTF does this mean?
 
 Let's imagine our FINAL hidden state is a vector of 4 numbers for simplicity (in reality, it would be much larger[.....]). After processing the entire English sentence, it might look something like this:
 
-[0.8, -0.3, 0.6, 0.1] - This vector doesn't directly correspond to words, but rather to abstract features that the network has learned to represent meaning. Remember our [3 dimensional features!](((w25DheDYb)))
+[0.8, -0.3, 0.6, 0.1] - This vector doesn't directly correspond to words, but rather to abstract features that the network has learned to represent meaning. Remember our 3 dimensional features!
 
 In our example, these numbers encode various aspects of the sentence:
 
@@ -134,3 +136,5 @@ etc.
 For example, when translating "European Economic Area", the hidden state's encoding of the economic context helps the network choose "zone économique" rather than just translating word-by-word right? 
 
 I hope now we could more or less imagine what's hidden for the French cat sits on the mat.
+
+Original written on roam page: https://roamresearch.com/#/app/fat-garage/page/6KgET8Rbs
